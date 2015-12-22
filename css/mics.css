@@ -994,3 +994,7 @@ a{
 p.events{
     color: black;
 }
+ol.list-group{
+    text-indent: 50px;
+    list-style-position: inside;
+}
