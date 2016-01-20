@@ -1,2 +1,2 @@
-# mics_website
-Minorities In Computer Science website
+#Check The Site Out Here
+###http://www2.cs.siu.edu/~mics/
