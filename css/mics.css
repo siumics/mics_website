@@ -5,10 +5,14 @@
  */
 
 body {
+    webkit-tap-highlight-color: #fed136;
+    background: #000000;
     overflow-x: hidden;
     font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
-
+@media screen and (max-width: 768px) {
+    body { padding-top: 90px; }
+}
 .text-muted {
     color: #777;
 }
@@ -867,12 +871,8 @@ img::-moz-selection {
     background: 0 0;
 }
 
-body {
-    webkit-tap-highlight-color: #fed136;
-    background: #000000;
-}
-
 .header-container{
+    margin-top: auto;
     width: 100%;
     height: auto;
     border-left: none;
