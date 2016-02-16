@@ -4139,8 +4139,8 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   .container-fluid > .navbar-header,
   .container > .navbar-collapse,
   .container-fluid > .navbar-collapse {
-    margin-right: 0;
-    margin-left: 0;
+    margin-right: auto;
+    margin-left: auto;
   }
 }
 .navbar-static-top {
