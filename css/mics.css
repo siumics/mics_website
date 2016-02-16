@@ -10,9 +10,7 @@ body {
     overflow-x: hidden;
     font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
-@media screen and (max-width: 768px) {
-    body { padding-top: 90px; }
-}
+
 .text-muted {
     color: #777;
 }
@@ -350,7 +348,7 @@ section h3.section-subheading {
 
 @media(min-width:768px) {
     section {
-        padding: 20px 0;
+        padding: 150px 0;
     }
 }
 
@@ -954,3 +952,21 @@ ol.list-group{
     height: auto;
     max-width: 100%;
  }
+
+video#bgvid{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    background: url(pic.jpg) no-repeat;
+    background-size: cover;
+    opacity: 0.3;    
+}
