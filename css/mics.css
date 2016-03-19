@@ -168,7 +168,7 @@ h1, h2, h3, h4, h5, h6 {
     background-color: #222;
   }
   .navbar-default.navbar-shrink .navbar-brand {
-    font-size: 1.5em;
+    font-size: 2em;
   }
 }
 header {
@@ -669,6 +669,14 @@ img::selection {
 img::-moz-selection {
   background: 0 0;
 }
+
+.container {
+	margin-left:25%;
+}
+
+#title {
+	margin-left:30%;
+}
 .header-container {
   margin-top: auto;
   width: 100%;
@@ -742,6 +750,7 @@ a {
   white-space: pre;
   text-shadow: 0 0 10px rgba(255, 255, 255, 1), 0 0 20px rgba(255, 255, 255, 1), 0 0 30px rgba(255, 255, 255, 1), 0 0 40px #ff00de, 0 0 70px #ff00de, 0 0 80px #ff00de, 0 0 100px #ff00de;
 }
+
 p.events {
   color: black;
 }
@@ -770,4 +779,29 @@ video#bgvid {
   background: url(pic.jpg) no-repeat;
   background-size: cover;
   opacity: 0.3;
+}
+
+#micsDescription {
+	font-size:1.5em;
+}
+
+.row {
+	text-align:center;
+	width:100%;
+}
+
+#Meeting_details {
+	margin-right:25%;
+}
+
+#Dreamweaver_class {
+	margin-right:25%;
+}
+
+#Contact_class {
+	margin-right:25%;
+}
+
+#computerGraphicSpace {
+	margin-right:25%;
 }
